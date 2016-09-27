@@ -1,3 +1,5 @@
+package GradleDemo;
+
 public class GradleDemo{
 
   public static void main(String[] args){
