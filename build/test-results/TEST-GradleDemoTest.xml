@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GradleDemoTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-09-27T18:29:19" hostname="Jennifer's MacBook Pro" time="0.006">
+  <properties/>
+  <testcase name="testLazy1" classname="GradleDemoTest" time="0.004"/>
+  <testcase name="testLazy2" classname="GradleDemoTest" time="0.0"/>
+  <testcase name="testLazy3" classname="GradleDemoTest" time="0.001"/>
+  <testcase name="testLazy4" classname="GradleDemoTest" time="0.0"/>
+  <testcase name="testTri1" classname="GradleDemoTest" time="0.0"/>
+  <testcase name="testTri2" classname="GradleDemoTest" time="0.0"/>
+  <testcase name="testTri3" classname="GradleDemoTest" time="0.0"/>
+  <system-out><![CDATA[Lazy(0) = 1.0
+Lazy(1) = 2.0
+Lazy(2) = 4.0
+Lazy(3) = 7.0
+Tri(1) = 1
+Tri(2) = 3
+Tri(3) = 6
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

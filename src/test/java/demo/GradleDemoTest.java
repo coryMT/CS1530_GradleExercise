@@ -1,7 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-import GradleDemo.GradleDemo;
+import demo.GradleDemo;
 
 public class GradleDemoTest {
 

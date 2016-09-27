@@ -1,4 +1,4 @@
-package GradleDemo;
+package demo;
 
 public class GradleDemo{
 
@@ -26,11 +26,15 @@ public class GradleDemo{
     }
   }
 
-  public static void Tri(int n){
+  public static int Tri(int n){
+    int sum = n*(n+1)/2;
     System.out.println("Tri(" + n + ") = " + n*(n+1)/2);
+    return sum;
   }
 
-  public static void Lazy(int n){
+  public static int Lazy(int n){
+    int sum = (int)(Math.pow(n, 2) + n + 2)/2;
     System.out.println("Lazy(" + n + ") = " + (Math.pow(n, 2) + n + 2)/2);
+    return sum;
   }
 }
