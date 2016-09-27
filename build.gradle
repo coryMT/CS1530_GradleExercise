@@ -1,6 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'application'
-mainClassName = "chess.HelloWorld"
+mainClassName = "GradleDemo"
 
 repositories {
   mavenCentral()
@@ -10,7 +10,18 @@ dependencies {
   testCompile 'junit:junit:4.12'
 }
 
-run {
-  systemProperties System.getProperties()
-  args System.getProperty("args").split()
+task demo << {
+  println "Integer Sequence Demo"
+
+  println "Try(1) = 1"
+  println "Try(2) = 3"
+  println "Try(3) = 6"
+  println "Try(4) = 10"
+  println "Try(5) = 15"
+
+  println "Lazy(1) = 2"
+  println "Lazy(2) = 4"
+  println "Lazy(3) = 7"
+  println "Lazy(4) = 11"
+  println "Lazy(5) = 16"
 }
