@@ -9,7 +9,7 @@ public class GradleDemo{
     }
     catch(Exception e){
       System.out.println("That was not an int.");
-      System.exit(0);
+      System.exit(2);
     }
 
     if(arg1.equals("lazy")){
@@ -17,6 +17,10 @@ public class GradleDemo{
     }
     else if(arg1.equals("triangle")){
       Tri(arg2);
+    }
+    else {
+      System.out.println("You must enter Lazy or Triangle");
+      System.exit(2);
     }
   }
 
